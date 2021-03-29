@@ -1,10 +1,7 @@
 <?php
-function myFirstFunction($name, $color){
-    echo "<p>Lorem ipsum dolor $name amet consectetur adipisicing $color. Dignissimos, aliquam?</p>";
-}
-myFirstFunction('amir','green');
-myFirstFunction('sumon', 'black');
+
+$myname = "Amir khan";
+
 ?>
 
-<h1><?php bloginfo('name'); ?></h1>
-<p><?php bloginfo('description'); ?></p>
+<h1>hello my name is <?php echo $myname?></h1>
